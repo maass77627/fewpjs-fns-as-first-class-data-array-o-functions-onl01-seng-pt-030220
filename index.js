@@ -20,3 +20,7 @@ return (`Throw ${dogName} the ${dogBreed}`);
 function walkHome(dogName, dogBreed) {
 return (`Walk ${dogName} the ${dogBreed}`);
 }
+
+function unleashDog(dogName, dogBreed) {
+return (`Unleash ${dogName} the ${dogBreed}`);
+}
