@@ -24,3 +24,5 @@ return (`Walk home with ${dogName} the ${dogBreed}`);
 function unleashDog(dogName, dogBreed) {
 return (`Unleash ${dogName} the ${dogBreed}`);
 }
+
+let routine = [wakeDog(), leashDog(), walkToPark(), throwFrisbee(), walkHome(), unleashDog()]
